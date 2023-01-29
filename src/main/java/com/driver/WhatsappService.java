@@ -33,7 +33,7 @@ public class WhatsappService {
         return whatsappRepository.removeUser(user);
     }
 
-    public String findMessage(Date start, Date end, int K) throws Exception{
-        return whatsappRepository.findMessage(start, end, K);
-    }
+//    public String findMessage(Date start, Date end, int K) throws Exception{
+//        return whatsappRepository.findMessage(start, end, K);
+//    }
 }
