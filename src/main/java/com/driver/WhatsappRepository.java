@@ -19,7 +19,7 @@ public class WhatsappRepository {
     public int messageCount = 0;
     public String createUser(String name,String mobile) throws Exception{
         if(userMap.containsKey(mobile))
-            throw new Exception("User already exist");
+            throw new Exception("User already exists");
         else{
             User user = new User(name,mobile);
             userMap.put(mobile,user);
